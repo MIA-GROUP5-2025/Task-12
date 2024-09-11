@@ -29,11 +29,10 @@
     chmod +x pid_pub.py
     chmod +x pid_sub.py
  4. **Launch gazebo**
+![launch](https://github.com/user-attachments/assets/9299084d-4dfe-4815-81d3-575bcfb08e6b)
     ```bash
     export TURTLEBOT3_MODEL=burger
     roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
-    ![launch](https://github.com/user-attachments/assets/96008c50-87ae-4d69-94cf-ff13fa018938)
-    
  5. **In another terminal, run the publisher node**
     ```bash
     rosrun pid pid_pub.py

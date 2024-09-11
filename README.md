@@ -32,8 +32,8 @@
     ```bash
     export TURTLEBOT3_MODEL=burger
     roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
-    ![launch](https://github.com/user-attachments/assets/e069ba4c-0f3b-454b-814f-15b9b9898538)
-
+    ![launch](https://github.com/user-attachments/assets/96008c50-87ae-4d69-94cf-ff13fa018938)
+    
  5. **In another terminal, run the publisher node**
     ```bash
     rosrun pid pid_pub.py
